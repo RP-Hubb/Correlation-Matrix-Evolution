@@ -31,7 +31,7 @@ window_size = st.sidebar.slider(
 )
 
 # --- Synthetic Data Generation ---
-np.random.seed(42)
+np.random.seed(4)
 num_assets = 5
 num_days = 300
 asset_names = [f"Asset {chr(65+i)}" for i in range(num_assets)]
