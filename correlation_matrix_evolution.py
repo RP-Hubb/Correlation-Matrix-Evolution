@@ -190,6 +190,6 @@ st.markdown("""
     .stMetric { font-size: 2.5em !important; }
     .stPlotlyChart { margin-top: 0px !important; }
     </style>
-    """, unsafe_allow_html=False)
+    """, unsafe_allow_html=True)
 
 
